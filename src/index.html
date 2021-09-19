@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="./codemirror.css"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/codemirror@5.62.3/lib/codemirror.css" integrity="sha256-utW7LD90DZW8tsURpPq7cabUGkha4Bf++sK4e7NC0+8=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/codemirror@5.62.3/theme/dracula.css" integrity="sha256-Av32BJYI3djQ189kA7blslEzB0Dfw5N3T2i7ZHJ7PG4=" crossorigin="anonymous">
+  <title>Online YAML Editor</title>
+</head>
+<body>
+  <main>
+    <h1>Online YAML Editor</h1>
+    <div id="editor">
+      <textarea name="code" id="cm-target"></textarea>
+    </div>
+    <div id="view">
+      <textarea id="cm-view"></textarea>
+    </div>
+  </main>
+  <script type="module" src="./app.ts"></script>
+</body>
+</html>

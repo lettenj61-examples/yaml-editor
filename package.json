@@ -2,13 +2,19 @@
   "name": "yaml-editor",
   "version": "0.0.0",
   "description": "Online YAML editor",
-  "main": "index.js",
+  "source": "src/index.html",
   "scripts": {
+    "start": "parcel serve -p 9005",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "lettenj61 <letitscalable+npm@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/codemirror": "^5.60.2",
     "parcel": "^2.0.0-rc.0"
+  },
+  "dependencies": {
+    "codemirror": "^5.62.3",
+    "yaml": "^1.10.2"
   }
 }

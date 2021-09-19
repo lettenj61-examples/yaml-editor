@@ -1,0 +1,6 @@
+{
+  "arrowParens": "always",
+  "quoteProps": "preserve",
+  "semi": true,
+  "singleQuote": true
+}
