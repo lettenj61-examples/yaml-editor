@@ -1,0 +1,14 @@
+{
+  "name": "yaml-editor",
+  "version": "0.0.0",
+  "description": "Online YAML editor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lettenj61 <letitscalable+npm@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.0.0-rc.0"
+  }
+}
